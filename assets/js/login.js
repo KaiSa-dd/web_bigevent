@@ -40,7 +40,7 @@ $(function () {
             password: $('#pwd').val()
         }
         // 发起post请求
-        $.post('http://api-breakingnews-web.itheima.net/api/reguser', data, function (res) {
+        $.post('/api/reguser', data, function (res) {
             if (res.status !== 0) {
                 // console.log(res);
                 return layer.msg(res.message);
