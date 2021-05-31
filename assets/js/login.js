@@ -62,6 +62,7 @@ $(function () {
         // })
     })
     // 登录界面的点击事件
+
     $('#form-login').submit(function (e) {
         e.preventDefault();
         $.ajax({
